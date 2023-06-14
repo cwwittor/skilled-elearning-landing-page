@@ -26,7 +26,23 @@ html {
   width: 100%;
 }
 
+/* .width {
+  width: 100%;
+} */
+
+.a-item {
+  color: var(--pink);
+  font: var(--bodyS);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.a-item:hover {
+  color: var(--light-pink);
+}
+
 .top-image {
+  /* background-image: url(/assets/image-hero-mobile.png); */
   width: 100%;
 }
 
@@ -69,6 +85,10 @@ html {
 }
 
 .button-two:hover {
+  opacity: 0.5;
+}
+
+.button-three:hover {
   opacity: 0.5;
 }
 
@@ -146,5 +166,9 @@ html {
   display: flex;
   justify-content: space-between;
   background-color: var(--black);
-  padding: 12px;
+  padding: 3rem 1rem 3rem 1rem;
+}
+
+.bottomImage {
+  max-height: 100%;
 }
