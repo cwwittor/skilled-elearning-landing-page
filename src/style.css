@@ -6,7 +6,7 @@
   --light-pink: #ffa7c3;
   --white: #ffffff;
   --gradient: linear-gradient(to top, #f02aa6, #ff6f48);
-  --gradient2: linear-gradient(to top, #4851ff, #f02aa6);
+  --gradient2: linear-gradient(to top, #f02aa6, #4851ff);
 
   --heading-xl: 56px/70px "Plus Jakarta Sans";
   --headingL: 40px/51px "Plus Jakarta Sans";
@@ -20,6 +20,10 @@
 @font-face {
   font-family: "Plus Jakarta Sans";
   src: url("./assets/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf");
+}
+
+.skilled-svg {
+  object-fit: contain;
 }
 
 html {
@@ -47,12 +51,18 @@ html {
 }
 
 .heading {
-  font: var(--heading-xl);
+  font: var(--headingL);
+  font-weight: 700;
+}
+
+.heading-text {
+  font: var(--bodyM);
+  color: var(--gray);
 }
 
 .button-one {
   border-radius: 2rem;
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
   text-decoration: none;
   font: var(--bodyS);
   font-weight: 600;
@@ -72,7 +82,7 @@ html {
 
 .button-three {
   border-radius: 2rem;
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
   text-decoration: none;
   font: var(--bodyS);
   font-weight: 600;

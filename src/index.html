@@ -15,14 +15,14 @@
     <title>Frontend Mentor | Skilled e-learning landing page</title>
   </head>
   <nav id="my-navbar">
-    <img class="" src="assets/logo-dark.svg" />
+    <img class="skilled-svg" src="assets/logo-dark.svg" />
     <a class="button-one">Get Started</a>
   </nav>
   <body>
     <div id="top-box">
       <div>
         <p class="heading">Maximize skill, minimize budget</p>
-        <p>
+        <p class="heading-text">
           Our modern courses across a range of in-demand skills will give you
           the knowledge you need to live the life you want.
         </p>
@@ -31,22 +31,19 @@
       <div>
         <picture>
           <source
-            class="top-image"
             srcset="./assets/image-hero-mobile.png"
             media="(max-width: 375px)"
           />
           <source
-            class="top-image"
             srcset="./assets/image-hero-tablet.png"
-            media="(min-width: 376px)"
+            media="(min-width: 376px) and (max-width: 768px)"
           />
           <source
-            class="top-image"
-            srcset="./assets/favicon-32x32.png"
+            srcset="./assets/image-hero-desktop.png"
             media="(min-width: 769px)"
           />
 
-          <img src="./assets/favicon-32x32.png" />
+          <img class="top-image" src="./assets/image-hero-desktop.png" />
         </picture>
       </div>
     </div>
@@ -103,7 +100,7 @@
     </div>
   </body>
   <footer id="footer-box">
-    <img src="assets/logo-light.svg" />
+    <img class="skilled-svg" src="assets/logo-light.svg" />
     <a class="button-three">Get Started</a>
   </footer>
 </html>
