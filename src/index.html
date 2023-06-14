@@ -29,7 +29,25 @@
         <a href="Youtube.com" class="button-two">Get Started</a>
       </div>
       <div>
-        <img class="top-image" src="./assets/image-hero-mobile.png" />
+        <picture>
+          <source
+            class="top-image"
+            srcset="./assets/image-hero-mobile.png"
+            media="(max-width: 375px)"
+          />
+          <source
+            class="top-image"
+            srcset="./assets/image-hero-tablet.png"
+            media="(min-width: 376px)"
+          />
+          <source
+            class="top-image"
+            srcset="./assets/favicon-32x32.png"
+            media="(min-width: 769px)"
+          />
+
+          <img src="./assets/favicon-32x32.png" />
+        </picture>
       </div>
     </div>
     <div class="body-box grid-box">
