@@ -5,15 +5,15 @@
   --pink: #f74780;
   --light-pink: #ffa7c3;
   --white: #ffffff;
-  --gradient: #f02aa6-ff6f48;
-  --gradient2: #4851ff-f02aa6;
+  --gradient: linear-gradient(to top, #f02aa6, #ff6f48);
+  --gradient2: linear-gradient(to top, #4851ff, #f02aa6);
 
   --heading-xl: 56px/70px "Plus Jakarta Sans";
   --headingL: 40px/51px "Plus Jakarta Sans";
   --headingM: 32px/40px "Plus Jakarta Sans";
   --headingS: 24px/28px "Plus Jakarta Sans";
 
-  --bodyS: 16px/28px "Plus Jakarta Sans Bold";
+  --bodyS: 16px/28px "Plus Jakarta Sans";
   --bodyM: 18px/28px "Plus Jakarta Sans";
 }
 
@@ -35,17 +35,41 @@ html {
 }
 
 .button-one {
-  box-shadow: none;
-  background-color: var(--black);
+  border-radius: 2rem;
+  padding: 1rem 2rem 1rem 2rem;
+  text-decoration: none;
+  font: var(--bodyS);
+  font-weight: 600;
   color: var(--white);
-  border-radius: 100px;
-  border: var(--black);
-  font-size: 20;
+  background-color: var(--black);
+}
+
+.button-two {
+  border-radius: 2rem;
+  padding: 1rem 2rem 1rem 2rem;
+  text-decoration: none;
+  font: var(--bodyS);
+  font-weight: 600;
+  color: var(--white);
+  background-image: var(--gradient);
+}
+
+.button-three {
+  border-radius: 2rem;
+  padding: 1rem 2rem 1rem 2rem;
+  text-decoration: none;
+  font: var(--bodyS);
+  font-weight: 600;
+  color: var(--white);
+  background-image: var(--gradient2);
 }
 
 .button-one:hover {
   background-color: var(--purple);
-  border: var(--purple);
+}
+
+.button-two:hover {
+  opacity: 0.5;
 }
 
 #my-navbar {
@@ -54,6 +78,15 @@ html {
   padding: 12px;
   /* gap: 2rem; */
   /* width: 100%; */
+}
+
+.item-box-color {
+  font: var(--bodyM);
+  margin: 0 1rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  background-image: var(--gradient);
+  color: white;
 }
 
 .item-box {
