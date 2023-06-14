@@ -22,6 +22,15 @@
   src: url("./assets/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf");
 }
 
+body {
+  margin: 0;
+}
+
+.body-box {
+  margin: 0;
+  padding: 0rem 0.5rem 0rem 0.5rem;
+}
+
 .skilled-svg {
   object-fit: contain;
 }
@@ -58,6 +67,8 @@ html {
 .heading-text {
   font: var(--bodyM);
   color: var(--gray);
+  font-weight: 300;
+  margin-bottom: 2rem;
 }
 
 .button-one {
@@ -78,6 +89,10 @@ html {
   font-weight: 600;
   color: var(--white);
   background-image: var(--gradient);
+}
+
+.heading-container {
+  margin-bottom: 60px;
 }
 
 .button-three {
@@ -124,6 +139,7 @@ html {
   display: flex;
   flex-direction: column;
   background-color: var(--white);
+  margin: 20px 0 20px 0;
 }
 
 .item-title {
