@@ -35,6 +35,10 @@
   border: var(--purple);
 }
 
+.item-box {
+  background-color: var(--white);
+}
+
 #my-navbar {
   display: flex;
   justify-content: space-between;
@@ -53,6 +57,11 @@
     flex-direction: column;
   }
 }
-/* nav {
-  background-color: linear-gradient("to bottom", #ffffff, #83869a);
-} */
+
+.body-box {
+  background-image: linear-gradient(to bottom, #ffffff, #83869a);
+}
+
+#footer-box {
+  background-color: var(--black);
+}
