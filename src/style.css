@@ -8,7 +8,7 @@
   --gradient: #f02aa6-ff6f48;
   --gradient2: #4851ff-f02aa6;
 
-  --headingXL: 56px/70px "Plus Jakarta Sans ExtraBold";
+  --heading-xl: 56px/70px "Plus Jakarta Sans Extra Bold";
   --headingL: 40px/51px "Plus Jakarta Sans ExtraBold";
   --headingM: 32px/40px "Plus Jakarta Sans ExtraBold";
   --headingS: 24px/28px "Plus Jakarta Sans ExtraBold";
@@ -18,5 +18,31 @@
 }
 
 .heading {
-  font: var(--headingXL);
+  font: var(--heading-xl);
+}
+
+.button-one {
+  box-shadow: none;
+  background-color: var(--black);
+  color: var(--white);
+  border-radius: 100px;
+  border: var(--black);
+  font-size: 20;
+}
+
+.button-one:hover {
+  background-color: var(--purple);
+  border: var(--purple);
+}
+
+.my-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  /* gap: 2rem; */
+  /* width: 100%; */
+}
+
+nav {
+  background-color: linear-gradient("to bottom", #ffffff, #83869a);
 }
