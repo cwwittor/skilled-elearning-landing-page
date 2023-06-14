@@ -11,10 +11,15 @@
   --heading-xl: 56px/70px "Plus Jakarta Sans Extra Bold";
   --headingL: 40px/51px "Plus Jakarta Sans ExtraBold";
   --headingM: 32px/40px "Plus Jakarta Sans ExtraBold";
-  --headingS: 24px/28px "Plus Jakarta Sans ExtraBold";
+  --headingS: 24px/28px "Plus Jakarta Sans";
 
   --bodyS: 16px/28px "Plus Jakarta Sans Bold";
   --bodyM: 18px/28px "Plus Jakarta Sans Medium";
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("./assets/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf");
 }
 
 .heading {
@@ -36,6 +41,8 @@
 }
 
 .item-box {
+  display: flex;
+  flex-direction: column;
   background-color: var(--white);
 }
 
@@ -45,6 +52,16 @@
   padding: 12px;
   /* gap: 2rem; */
   /* width: 100%; */
+}
+
+.item-title {
+  font: var(--headingS);
+  font-weight: 800;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
 }
 
 #top-box {
@@ -66,6 +83,9 @@
   .grid-box {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
+  }
+
+  .item-box {
   }
 }
 
