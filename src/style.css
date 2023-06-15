@@ -187,6 +187,13 @@ html {
   flex-direction: column;
 }
 
+#footer-box {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--black);
+  padding: 2rem 1rem 2rem 1rem;
+}
+
 @media (min-width: 768px) {
   #my-navbar {
     padding: 1.5rem 3rem 2rem 3rem;
@@ -209,6 +216,7 @@ html {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 1rem;
     padding: 0 2rem 0 2rem;
+    margin-bottom: 4.6rem;
   }
 
   .picture-frame picture img {
@@ -226,6 +234,9 @@ html {
     justify-content: center;
     margin-bottom: 0;
     padding-top: 4rem;
+  }
+  #footer-box {
+    padding: 2rem 2rem 2rem 2rem;
   }
 }
 
@@ -266,14 +277,9 @@ html {
   .picture-frame {
     overflow: hidden;
   }
-}
-
-#footer-box {
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--black);
-  padding: 2rem 1rem 2rem 1rem;
-  margin-top: 4.6rem;
+  #footer-box {
+    padding: 2rem 8rem 2rem 8rem;
+  }
 }
 
 .skilled-svg {
