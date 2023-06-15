@@ -29,10 +29,12 @@ body {
 .body-box {
   margin: 0;
   padding: 0rem 0.5rem 0rem 0.5rem;
+  background-color: #f4f5fc;
 }
 
 html {
   width: 100%;
+  background-color: #f4f5fc;
 }
 
 /* .width {
@@ -56,21 +58,21 @@ html {
 }
 
 .heading {
-  font: 40px "Plus Jakarta Sans";
+  font: 38px "Plus Jakarta Sans";
   line-height: auto;
   font-weight: 700;
-  margin: 0 0 2rem 0;
+  margin: 0 0 1.4rem 0;
 }
 
 .heading-text {
   font: 16px/26px "Plus Jakarta Sans";
   color: var(--gray);
   font-weight: 300;
-  margin-bottom: 2.3rem;
+  margin-bottom: 1.7rem;
 }
 
 .heading-container {
-  margin-bottom: 60px;
+  margin-bottom: 2.2rem;
 }
 
 .button-one {
@@ -116,8 +118,8 @@ html {
 }
 
 #my-navbar {
-  padding: 1rem 1rem 1.5rem 1rem;
-
+  padding: 1rem 1rem 1.7rem 1rem;
+  background-color: #f4f5fc;
   display: flex;
   justify-content: space-between;
   /* gap: 2rem; */
@@ -125,13 +127,13 @@ html {
 }
 
 .item-box-color {
-  padding: 0 1rem 0 1rem;
+  padding: 0.4rem 2rem 0.3rem 2rem;
   border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
   background-image: var(--gradient);
   color: white;
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
   /* width: auto;
   overflow: hidden;
   flex-grow: 0; */
@@ -139,15 +141,16 @@ html {
 
 .color-box-text {
   font: 24px/32px "Plus Jakarta Sans";
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .item-box {
-  padding: 0 0.5rem 0 1.5rem;
+  border-radius: 0.7rem;
+  padding: 0 1.5rem 2rem 1.5rem;
   display: flex;
   flex-direction: column;
   background-color: var(--white);
-  margin: 30px 0 30px 0;
+  margin: 0 0 2.3rem 0;
 }
 
 .item-title {
@@ -178,11 +181,6 @@ html {
   flex-direction: column;
 }
 
-.grid-box {
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-}
-
 @media (min-width: 768px) {
   #top-box {
     flex-direction: row;
@@ -190,16 +188,10 @@ html {
 
   .grid-box {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 1rem;
   }
-
-  .item-box {
-  }
-}
-
-.body-box {
-  background-image: linear-gradient(to bottom, #ffffff, #f1f1f1);
 }
 
 #footer-box {
@@ -207,10 +199,12 @@ html {
   justify-content: space-between;
   background-color: var(--black);
   padding: 2rem 1rem 2rem 1rem;
+  margin-top: 4.6rem;
 }
 
 .skilled-svg {
   object-fit: contain;
+  width: 5.5rem;
 }
 
 .bottomImage {
