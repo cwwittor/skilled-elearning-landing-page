@@ -182,8 +182,15 @@ html {
 }
 
 @media (min-width: 768px) {
+  #my-navbar {
+    padding: 1rem 1rem 2rem 1rem;
+    background-color: #f4f5fc;
+    justify-content: space-between;
+  }
+
   #top-box {
     flex-direction: row;
+    margin-bottom: 6rem;
   }
 
   .grid-box {
@@ -191,6 +198,14 @@ html {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 1rem;
+  }
+
+  .picture-frame picture img {
+    transform: scale(2) translate(60px, -05px);
+  }
+
+  .picture-frame {
+    overflow: hidden;
   }
 }
 
