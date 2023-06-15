@@ -32,12 +32,6 @@ body {
   background-color: #f4f5fc;
 }
 
-.top-body-box {
-  margin: 0;
-  padding: 0rem 0.5rem 0rem 0.5rem;
-  background-color: #f4f5fc;
-}
-
 html {
   width: 100%;
   background-color: #f4f5fc;
@@ -189,17 +183,14 @@ html {
 
 @media (min-width: 768px) {
   #my-navbar {
-    padding: 1.5rem 3rem 2rem 3rem;
+    padding: 1rem 1rem 2rem 1rem;
     background-color: #f4f5fc;
     justify-content: space-between;
   }
 
   #top-box {
     flex-direction: row;
-  }
-
-  .top-body-box {
-    padding-bottom: 10rem;
+    margin-bottom: 6rem;
   }
 
   .grid-box {
@@ -207,7 +198,6 @@ html {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 1rem;
-    padding: 0 2rem 0 2rem;
   }
 
   .picture-frame picture img {
@@ -215,19 +205,7 @@ html {
   }
 
   .picture-frame {
-    overflow: visible;
-  }
-
-  .heading-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0;
-  }
-
-  .button-two {
-    flex: 0;
+    overflow: hidden;
   }
 }
 
