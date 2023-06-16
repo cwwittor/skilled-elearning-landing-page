@@ -1,88 +1,90 @@
-# Frontend Mentor - Skilled e-learning landing page
+# Frontend Mentor - Skilled e-learning landing page solution
 
-![Design preview for the Skilled e-learning landing page coding challenge](./preview.jpg)
+This is a solution to the [Skilled e-learning landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for purchasing this premium Frontend Mentor coding challenge.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects. These premium challenges are perfect portfolio pieces, so please feel free to use what you create in your portfolio to show others.
+## Overview
 
-**To do this challenge, you need a decent understanding of HTML and CSS.**
+Hello, this is my first project with Frontend Mentor. I have experience with some HTML and CSS but am trying to improve my skills since they are a lot worse than other skills in this field.
 
-## The challenge
+### The challenge
 
-Your challenge is to build out this landing page and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-Your users should be able to:
+Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+### Screenshot
 
-## Where to find everything
+![](./src/assets/iphone.png)
+![](./src/assets/tabletnew.png)
+![](./src/assets/desktopnew.png)
 
-Your task is to build out the project to the design file provided. We provide both Sketch and Figma versions of the design, so you can choose which tool you prefer to use. You can download the design file on the platform. **Please be sure not to share them with anyone else.** The design download comes with a `README.md` file as well to help you get set up.
+### Links
 
-All the required assets for this project are in the `/assets` folder. The assets are already exported for the correct screen size and optimized. Some images are reusable at multiple screen sizes, some are for specific layouts. We also include WEBP and PNG versions and different resolutions of the hero image, so you can choose to use whichever format and resolution you like or even look into letting the browser choose which image to use based on specific conditions. For this, you can look into [responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) to learn more.
+- Solution URL: [Add solution URL here](https://github.com/cwwittor/skilled-elearning-landing-page)
+- Live Site URL: [Add live site URL here](https://cwwittor.github.io/skilled-elearning-landing-page/)
 
-The design system in the design file will give you more information about the various colors, fonts, and styles used in this project. Our fonts always come from [Google Fonts](https://fonts.google.com/).
+## My process
 
-## Building your project
+The steps I had went through in the process were as follows:
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+1. I had started with the html file and adding in all of what I thought would be needed in terms of blank divs, text, and elements.
+2. From here I had defined the custom css variables
+3. After defining the variables I had started with mobile layout first. My first thoughts were priorizing how I wanted certain components to be in terms of display type. Had settled on flex for a lot of the inside of elements and a grid layout for later when I would work on tablet/desktop. I had some problems here in terms of how I hadn't fully gotten it working before I switched to doing some things with tablet and how it shifted from mobile to tablet. Had to remove a few things but got looking fine for me.
+4. From this I shifted to tablet. I had problems with setting up the image in the top section so that it was cut-off. Initially I had tried just using hidden overflow and translating out of frame. This had cut the image up though. I had then progressed to trying to use absolute positioning and making this a background image, but I had problems with both so ended up having to go with what didnt break my page when I hit the deadline.
+5. From this I went to desktop where I realized from some assistance that I was overrelying on padding and margins, so I swapped a few things like the max-width of the webpage with what I had before, but I still think I used a good bit too much of padding.
 
-1. Separate the `starter-code` from the rest of this project and rename it to something meaningful for you. Initialize the codebase as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/). **⚠️ IMPORTANT ⚠️: There are already a couple of `.gitignore` files in this project. Please do not remove them or change the content of the files. If you create a brand new project, please use the `.gitignore` files provided in your new codebase. This is to avoid the accidental upload of the design files to GitHub. With these premium challenges, please be sure not to share the design files in your GitHub repo. Thanks!**
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+### Built with
 
-## Deploying your project
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [Styled Components](https://styled-components.com/) - For styles
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+### What I learned
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+I think the most valuable things I learned were as follows:
 
-## Create a custom `README.md`
+- Do not start working on another responsive design until fully finished with the first.
+- Mobile is the best starting point and there should almost be barely any mobile media queries.
+- Padding is not a be all solution for spacing and for things like page margin you have to think about how you want to set it up without padding.
+- When working with multiple `<picture>` sources you will need to be direct in what media queries they break at, for example you will need to state a starting and ending bound for middle positioned ones.
+- I should probably crop my images if it seems like the process will take too much time with code since it will also make the image be less load time.
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+### Continued development
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+I feel like with what I did this took me way too long to do in general, and I feel like my current abilities for this are a good bit weak. Some areas I want to improve upon:
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+- I want to get better with setting variables. I had set a lot at the start but had stopped using some since some variables on figma pages werent the same as the one in the stylesheet, so ended up using a lot of "imaginary numbers".
+- I never finished being able to set the image up so it fits the project like it should. I want to be better at being able to problem solve for cases like this and understand how to do this without having to crop the picture.
+- I want to stop overelying on padding as the first thought for spacing.
 
-## Submitting your solution
+### Useful resources
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+The main resources I had used were w3schools and the raycast ai for simple questions about element names. I don't think I relied too heavily on either.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+## Author
 
-**⚠️ IMPORTANT ⚠️: With these premium challenges, please be sure not to upload the design files to GitHub when you're submitting to the platform and sharing it around. If you've created a brand new project, the easiest way to do that is to copy across the `.gitignore` provided in this starter project.**
+- Frontend Mentor - [@cwwittor](https://www.frontendmentor.io/profile/cwwittor)
 
-## Sharing your solution
+## Acknowledgments
 
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-**Have fun building!** 🚀
+I would like to thank my coworker Andrew for helping me when I really hit a wall in a few cases, and just explaining things well. I really appreciate it since I acknowldge my current skills here need to be worked on.
