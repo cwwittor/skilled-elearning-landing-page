@@ -76,6 +76,7 @@ I feel like with what I did this took me way too long to do in general, and I fe
 - I want to get better with setting variables. I had set a lot at the start but had stopped using some since some variables on figma pages werent the same as the one in the stylesheet, so ended up using a lot of "imaginary numbers".
 - I never finished being able to set the image up so it fits the project like it should. I want to be better at being able to problem solve for cases like this and understand how to do this without having to crop the picture.
 - I want to stop overelying on padding as the first thought for spacing.
+- I should get better at naming conventions, I feel like my naming conventions in this project are a mess even if they make sense in my head.
 
 ### Useful resources
 
